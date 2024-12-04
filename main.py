@@ -15,7 +15,16 @@ def run_scripts():
     scripts = [
         'script1.py',
         'script2.py',
-        'script3.py'
+        'script3.py',
+        'script4.py',
+        'script5.py',
+        'script6.py',
+        'script7.py',
+        'script8.py',
+        'script9.py',
+        'script10.py',
+        'script11.py',
+        'script12.py',
         # Add more scripts here as needed
     ]
     
