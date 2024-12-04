@@ -25,6 +25,16 @@ def run_scripts():
         'script10.py',
         'script11.py',
         'script12.py',
+        'script13.py',
+        'script14.py',
+        'script15.py',
+        'script16.py',
+        'script17.py',
+        'script18.py',
+        'script19.py',
+        'script20.py',
+        'script21.py',
+        'script22.py'
         # Add more scripts here as needed
     ]
     
@@ -70,4 +80,4 @@ def status():
     return 'Running' if running else 'Stopped'
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    app.run(host='0.0.0.0', port=8080)
