@@ -6,13 +6,7 @@ from threading import Thread
 
 app = Flask(__name__)
 
-scripts = [
-    'script1.py', 'script2.py', 'script3.py', 'script4.py', 'script5.py',
-    'script6.py', 'script7.py', 'script8.py', 'script9.py', 'script10.py',
-    'script11.py', 'script12.py', 'script13.py', 'script14.py', 'script15.py',
-    'script16.py', 'script17.py', 'script18.py', 'script19.py', 'script20.py',
-    'script21.py', 'script22.py'
-]
+scripts = ['script.py']
 
 script_status = {script: "Not started" for script in scripts}
 
